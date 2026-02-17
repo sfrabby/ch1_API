@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../Controller/PostController.dart';
+import '../../controller/DataPostController.dart';
 
 class PostDeleteView extends StatelessWidget {
   PostDeleteView({super.key});

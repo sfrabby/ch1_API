@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import '../Controller/PostController.dart'; // আপনার কন্ট্রোলারের পাথ দিন
+import '../../controller/DataPostController.dart';
 
 class PostScreen extends StatelessWidget {
   PostScreen({super.key});

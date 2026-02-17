@@ -8,6 +8,8 @@ class PostController extends GetxController {
   RxBool isLoading = false.obs;
   RxList<PostModel> posts = <PostModel>[].obs;
 
+  get postList => null;
+
   @override
   void onInit() {
     super.onInit();
@@ -32,4 +34,6 @@ class PostController extends GetxController {
       isLoading.value = false;
     }
   }
+
+  void deletePost(int i) {}
 }
